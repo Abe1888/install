@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase/client';
+import { toast } from 'react-hot-toast';
 
 // Project Settings Types
 export interface ProjectSettings {
@@ -97,6 +98,9 @@ export function useProjectSettings(): UseProjectSettingsReturn {
       if (upsertError) {
         throw upsertError;
       }
+      
+      // Reset seed data to maintain the two-vehicle-per-day rule
+      await resetSeedData();
 
       setSettings(data);
       console.log('✅ Project settings updated successfully:', data);
@@ -107,6 +111,42 @@ export function useProjectSettings(): UseProjectSettingsReturn {
       throw err; // Re-throw so component can handle it
     } finally {
       setLoading(false);
+    }
+  };
+
+  // Reset seed data to maintain the two-vehicle-per-day rule
+  const resetSeedData = async () => {
+    try {
+      // Fetch the CORRECTED seed data SQL to ensure proper vehicle scheduling
+      const response = await fetch('/api/sql/seeddata');
+      if (!response.ok) {
+        throw new Error('Failed to fetch seed data');
+      }
+      
+      const sql = await response.text();
+      
+      // Execute the seed data reset
+      const resetResponse = await fetch('/api/database/reset-seed', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ sql }),
+      });
+      
+      if (!resetResponse.ok) {
+        const errorData = await resetResponse.json();
+        throw new Error(`Failed to reset seed data: ${errorData.error || errorData.details || 'Unknown error'}`);
+      }
+      
+      console.log('✅ Vehicle schedule has been reset to maintain the two-vehicle-per-day rule');
+      toast.success('Vehicle schedule has been updated to maintain the two-vehicle-per-day rule');
+      
+      return true;
+    } catch (error) {
+      console.error('❌ Error resetting seed data:', error);
+      toast.error(`Failed to reset vehicle schedule: ${error instanceof Error ? error.message : 'Unknown error'}`);
+      return false;
     }
   };
 
