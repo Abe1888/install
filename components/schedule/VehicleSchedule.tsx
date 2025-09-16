@@ -10,7 +10,7 @@ import { useDataConsistency, usePageDataSubscription, useDataHealthMonitor } fro
 import { useState, useEffect } from 'react'
 
 // Lazy load heavy components with proper loading states
-const OptimizedVehicleSchedule = dynamic(() => import('./OptimizedVehicleSchedule'), {
+const OptimizedVehicleSchedule = dynamic(() => import('./OptimizedVehicleSchedule').then(mod => ({ default: mod.default || mod })), {
   loading: () => <ScheduleSkeleton />,
   ssr: false,
 })
