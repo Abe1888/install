@@ -1,0 +1,15 @@
+Vehicle ID,Task Name,Start Time,End Time,Status,Assigned To,Priority,Duration (min),Task ID
+V001,"Vehicle Inspection",08:30:00,08:40:00,Pending,"TM002",High,,bdf7c01a-6f6e-4007-841b-233ea2476d18
+V001,"GPS Installation",08:40:00,09:40:00,Pending,"TM002",High,,e2779c6d-25a5-4fea-849c-6664fcb6b5e6
+V001,"Fuel Sensor Installation",09:40:00,10:30:00,Pending,"TM003",High,,5d011e29-dd06-488f-aff6-30d61f3edefa
+V001,"System Configuration",10:30:00,11:00:00,Pending,"TM001",High,,f4f9dd7d-df5b-4cdb-bb53-7eca8bb9c468
+V001,"Fuel Sensor Calibration",11:00:00,11:30:00,Pending,"TM003",High,,a2a20557-c709-4e13-82ed-93515082c97b
+V001,"Quality Assurance",11:30:00,11:45:00,Pending,"TM001",High,,1762218e-2dbc-44a1-98d3-540192a85bf7
+V001,"Documentation",11:45:00,12:00:00,Pending,"TM001",Medium,,cd7fcd28-63a0-4a8c-a5ae-d846b0be0b6b
+V002,"Vehicle Inspection",09:40:00,09:50:00,Pending,"TM002",High,,57e25eac-b9ed-4789-bb06-5fb1c1fd9564
+V002,"GPS Installation",09:50:00,10:50:00,Pending,"TM002",High,,0a69774f-f1c2-4fd0-8f53-c4ee28a063d4
+V002,"Fuel Sensor Installation",13:30:00,15:30:00,Pending,"TM003",High,,c6e4903b-7d6d-4adc-b3dc-bcf0e60166c9
+V002,"System Configuration",13:50:00,14:20:00,Pending,"TM001",High,,40f4b22b-6591-4145-82f5-10296f5432b2
+V002,"Fuel Sensor Calibration",15:30:00,16:30:00,Pending,"TM003",High,,7a7afaf4-8933-431a-944f-24f229f7ffea
+V002,"Quality Assurance",16:30:00,16:40:00,Pending,"TM001",High,,1026ed0a-04a1-495c-aa84-2ef487a94059
+V002,"Documentation",16:40:00,16:50:00,Pending,"TM001",Medium,,86da57a2-8bfa-4dfe-8521-a69dff7bf148

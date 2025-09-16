@@ -1,0 +1,234 @@
+{
+  "timestamp": "2025-09-13T15:47:14.663Z",
+  "source": "Task Management System - Direct Database Query",
+  "database_url": "https://yydtjsixbioottqmgftg.supabase.co",
+  "extraction_method": "Supabase Service Role",
+  "summary": {
+    "total_vehicles": 2,
+    "total_tasks": 14,
+    "expected_tasks": 14,
+    "data_completeness": "Complete"
+  },
+  "vehicles": [
+    {
+      "vehicleId": "V001",
+      "vehicleInfo": {
+        "id": "V001",
+        "type": "FORD/D/P/UP RANGER",
+        "location": "Bahir Dar",
+        "day": 1,
+        "time_slot": "Morning (8AM-12PM)",
+        "status": "Pending",
+        "gps_required": 1,
+        "fuel_sensors": 1,
+        "fuel_tanks": 1,
+        "created_at": "2025-09-13T15:06:42.078952+00:00",
+        "updated_at": "2025-09-13T15:21:35.94156+00:00"
+      },
+      "tasks": [
+        {
+          "id": "bdf7c01a-6f6e-4007-841b-233ea2476d18",
+          "name": "Vehicle Inspection",
+          "start_time": "08:30:00",
+          "end_time": "08:40:00",
+          "status": "Pending",
+          "assigned_to": "TM002",
+          "priority": "High",
+          "estimated_duration": 0,
+          "vehicle_id": "V001",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        },
+        {
+          "id": "e2779c6d-25a5-4fea-849c-6664fcb6b5e6",
+          "name": "GPS Installation",
+          "start_time": "08:40:00",
+          "end_time": "09:40:00",
+          "status": "Pending",
+          "assigned_to": "TM002",
+          "priority": "High",
+          "estimated_duration": 0,
+          "vehicle_id": "V001",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        },
+        {
+          "id": "5d011e29-dd06-488f-aff6-30d61f3edefa",
+          "name": "Fuel Sensor Installation",
+          "start_time": "09:40:00",
+          "end_time": "10:30:00",
+          "status": "Pending",
+          "assigned_to": "TM003",
+          "priority": "High",
+          "estimated_duration": 0,
+          "vehicle_id": "V001",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        },
+        {
+          "id": "f4f9dd7d-df5b-4cdb-bb53-7eca8bb9c468",
+          "name": "System Configuration",
+          "start_time": "10:30:00",
+          "end_time": "11:00:00",
+          "status": "Pending",
+          "assigned_to": "TM001",
+          "priority": "High",
+          "estimated_duration": 0,
+          "vehicle_id": "V001",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        },
+        {
+          "id": "a2a20557-c709-4e13-82ed-93515082c97b",
+          "name": "Fuel Sensor Calibration",
+          "start_time": "11:00:00",
+          "end_time": "11:30:00",
+          "status": "Pending",
+          "assigned_to": "TM003",
+          "priority": "High",
+          "estimated_duration": 0,
+          "vehicle_id": "V001",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        },
+        {
+          "id": "1762218e-2dbc-44a1-98d3-540192a85bf7",
+          "name": "Quality Assurance",
+          "start_time": "11:30:00",
+          "end_time": "11:45:00",
+          "status": "Pending",
+          "assigned_to": "TM001",
+          "priority": "High",
+          "estimated_duration": 0,
+          "vehicle_id": "V001",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        },
+        {
+          "id": "cd7fcd28-63a0-4a8c-a5ae-d846b0be0b6b",
+          "name": "Documentation",
+          "start_time": "11:45:00",
+          "end_time": "12:00:00",
+          "status": "Pending",
+          "assigned_to": "TM001",
+          "priority": "Medium",
+          "estimated_duration": 0,
+          "vehicle_id": "V001",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        }
+      ],
+      "taskCount": 7
+    },
+    {
+      "vehicleId": "V002",
+      "vehicleInfo": {
+        "id": "V002",
+        "type": "FORD/D/P/UP RANGER",
+        "location": "Bahir Dar",
+        "day": 2,
+        "time_slot": "Morning (8AM-12PM)",
+        "status": "Pending",
+        "gps_required": 1,
+        "fuel_sensors": 1,
+        "fuel_tanks": 1,
+        "created_at": "2025-09-13T15:06:42.078952+00:00",
+        "updated_at": "2025-09-13T15:21:36.285726+00:00"
+      },
+      "tasks": [
+        {
+          "id": "57e25eac-b9ed-4789-bb06-5fb1c1fd9564",
+          "name": "Vehicle Inspection",
+          "start_time": "09:40:00",
+          "end_time": "09:50:00",
+          "status": "Pending",
+          "assigned_to": "TM002",
+          "priority": "High",
+          "estimated_duration": 0,
+          "vehicle_id": "V002",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        },
+        {
+          "id": "0a69774f-f1c2-4fd0-8f53-c4ee28a063d4",
+          "name": "GPS Installation",
+          "start_time": "09:50:00",
+          "end_time": "10:50:00",
+          "status": "Pending",
+          "assigned_to": "TM002",
+          "priority": "High",
+          "estimated_duration": 0,
+          "vehicle_id": "V002",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        },
+        {
+          "id": "c6e4903b-7d6d-4adc-b3dc-bcf0e60166c9",
+          "name": "Fuel Sensor Installation",
+          "start_time": "13:30:00",
+          "end_time": "15:30:00",
+          "status": "Pending",
+          "assigned_to": "TM003",
+          "priority": "High",
+          "estimated_duration": 0,
+          "vehicle_id": "V002",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        },
+        {
+          "id": "40f4b22b-6591-4145-82f5-10296f5432b2",
+          "name": "System Configuration",
+          "start_time": "13:50:00",
+          "end_time": "14:20:00",
+          "status": "Pending",
+          "assigned_to": "TM001",
+          "priority": "High",
+          "estimated_duration": 0,
+          "vehicle_id": "V002",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        },
+        {
+          "id": "7a7afaf4-8933-431a-944f-24f229f7ffea",
+          "name": "Fuel Sensor Calibration",
+          "start_time": "15:30:00",
+          "end_time": "16:30:00",
+          "status": "Pending",
+          "assigned_to": "TM003",
+          "priority": "High",
+          "estimated_duration": 0,
+          "vehicle_id": "V002",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        },
+        {
+          "id": "1026ed0a-04a1-495c-aa84-2ef487a94059",
+          "name": "Quality Assurance",
+          "start_time": "16:30:00",
+          "end_time": "16:40:00",
+          "status": "Pending",
+          "assigned_to": "TM001",
+          "priority": "High",
+          "estimated_duration": 0,
+          "vehicle_id": "V002",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        },
+        {
+          "id": "86da57a2-8bfa-4dfe-8521-a69dff7bf148",
+          "name": "Documentation",
+          "start_time": "16:40:00",
+          "end_time": "16:50:00",
+          "status": "Pending",
+          "assigned_to": "TM001",
+          "priority": "Medium",
+          "estimated_duration": 0,
+          "vehicle_id": "V002",
+          "created_at": "2025-09-13T15:06:42.078952+00:00",
+          "updated_at": "2025-09-13T15:06:42.078952+00:00"
+        }
+      ],
+      "taskCount": 7
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+Vehicle Task Data - 9/13/2025, 6:47:14 PM
+Source: Task Management System - Direct Database Query
+Database: https://yydtjsixbioottqmgftg.supabase.co
+Total Vehicles: 2
+Total Tasks: 14
+Data Completeness: Complete
+
+==================================================
+Vehicle V001
+==================================================
+Type: FORD/D/P/UP RANGER
+Location: Bahir Dar
+Day: 1
+Time Slot: Morning (8AM-12PM)
+Status: Pending
+GPS Required: 1
+Fuel Sensors: 1
+Total Tasks: 7
+
+Task 1:
+  Name: Vehicle Inspection
+  Start Time: 08:30:00
+  End Time: 08:40:00
+  Status: Pending
+  Assigned To: TM002
+  Priority: High
+  Task ID: bdf7c01a-6f6e-4007-841b-233ea2476d18
+
+Task 2:
+  Name: GPS Installation
+  Start Time: 08:40:00
+  End Time: 09:40:00
+  Status: Pending
+  Assigned To: TM002
+  Priority: High
+  Task ID: e2779c6d-25a5-4fea-849c-6664fcb6b5e6
+
+Task 3:
+  Name: Fuel Sensor Installation
+  Start Time: 09:40:00
+  End Time: 10:30:00
+  Status: Pending
+  Assigned To: TM003
+  Priority: High
+  Task ID: 5d011e29-dd06-488f-aff6-30d61f3edefa
+
+Task 4:
+  Name: System Configuration
+  Start Time: 10:30:00
+  End Time: 11:00:00
+  Status: Pending
+  Assigned To: TM001
+  Priority: High
+  Task ID: f4f9dd7d-df5b-4cdb-bb53-7eca8bb9c468
+
+Task 5:
+  Name: Fuel Sensor Calibration
+  Start Time: 11:00:00
+  End Time: 11:30:00
+  Status: Pending
+  Assigned To: TM003
+  Priority: High
+  Task ID: a2a20557-c709-4e13-82ed-93515082c97b
+
+Task 6:
+  Name: Quality Assurance
+  Start Time: 11:30:00
+  End Time: 11:45:00
+  Status: Pending
+  Assigned To: TM001
+  Priority: High
+  Task ID: 1762218e-2dbc-44a1-98d3-540192a85bf7
+
+Task 7:
+  Name: Documentation
+  Start Time: 11:45:00
+  End Time: 12:00:00
+  Status: Pending
+  Assigned To: TM001
+  Priority: Medium
+  Task ID: cd7fcd28-63a0-4a8c-a5ae-d846b0be0b6b
+
+
+==================================================
+Vehicle V002
+==================================================
+Type: FORD/D/P/UP RANGER
+Location: Bahir Dar
+Day: 2
+Time Slot: Morning (8AM-12PM)
+Status: Pending
+GPS Required: 1
+Fuel Sensors: 1
+Total Tasks: 7
+
+Task 1:
+  Name: Vehicle Inspection
+  Start Time: 09:40:00
+  End Time: 09:50:00
+  Status: Pending
+  Assigned To: TM002
+  Priority: High
+  Task ID: 57e25eac-b9ed-4789-bb06-5fb1c1fd9564
+
+Task 2:
+  Name: GPS Installation
+  Start Time: 09:50:00
+  End Time: 10:50:00
+  Status: Pending
+  Assigned To: TM002
+  Priority: High
+  Task ID: 0a69774f-f1c2-4fd0-8f53-c4ee28a063d4
+
+Task 3:
+  Name: Fuel Sensor Installation
+  Start Time: 13:30:00
+  End Time: 15:30:00
+  Status: Pending
+  Assigned To: TM003
+  Priority: High
+  Task ID: c6e4903b-7d6d-4adc-b3dc-bcf0e60166c9
+
+Task 4:
+  Name: System Configuration
+  Start Time: 13:50:00
+  End Time: 14:20:00
+  Status: Pending
+  Assigned To: TM001
+  Priority: High
+  Task ID: 40f4b22b-6591-4145-82f5-10296f5432b2
+
+Task 5:
+  Name: Fuel Sensor Calibration
+  Start Time: 15:30:00
+  End Time: 16:30:00
+  Status: Pending
+  Assigned To: TM003
+  Priority: High
+  Task ID: 7a7afaf4-8933-431a-944f-24f229f7ffea
+
+Task 6:
+  Name: Quality Assurance
+  Start Time: 16:30:00
+  End Time: 16:40:00
+  Status: Pending
+  Assigned To: TM001
+  Priority: High
+  Task ID: 1026ed0a-04a1-495c-aa84-2ef487a94059
+
+Task 7:
+  Name: Documentation
+  Start Time: 16:40:00
+  End Time: 16:50:00
+  Status: Pending
+  Assigned To: TM001
+  Priority: Medium
+  Task ID: 86da57a2-8bfa-4dfe-8521-a69dff7bf148
+
+
