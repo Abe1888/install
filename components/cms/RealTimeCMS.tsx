@@ -350,7 +350,7 @@ export function RealTimeCMS() {
         const optimisticData = { ...editingItem, ...data, updated_at: new Date().toISOString() };
         
         // Use optimistic update functions if available
-        if (activeDataType === 'vehicles' && vehicles.find(v => v.optimisticUpdate)) {
+        if (activeDataType === 'vehicles') {
           const vehicleHook = vehicles as any;
           if (vehicleHook.optimisticUpdate) {
             vehicleHook.optimisticUpdate(optimisticData);

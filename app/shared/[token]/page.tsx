@@ -16,10 +16,13 @@ import {
 } from 'lucide-react';
 
 // Dynamically import components to prevent SSR issues
-const ImprovedDashboard = dynamic(() => import('@/components/dashboard/ImprovedDashboard'), {
-  loading: () => <LoadingSpinner text="Loading dashboard..." />,
-  ssr: false,
-});
+const ImprovedDashboard = dynamic(
+  () => import('@/components/dashboard/ImprovedDashboard') as any,
+  {
+    loading: () => <LoadingSpinner text="Loading dashboard..." />,
+    ssr: false,
+  }
+);
 
 const VehicleSchedule = dynamic(() => import('@/components/schedule/VehicleSchedule').then(mod => ({ default: mod.VehicleSchedule })), {
   loading: () => <LoadingSpinner text="Loading vehicle schedule..." />,
